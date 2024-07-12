@@ -1,0 +1,56 @@
+body{
+    
+    background-image: url('fondo.jpeg');
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family:sans-serif;
+
+}
+
+.circulo{
+    border-radius: 50%;
+}
+
+.color1{
+    background-color: rgb(147, 14, 195);
+}
+
+.color2{
+    background-color: rgb(147, 14, 195);
+    text-align: center;
+}
+
+#contador{
+    background-color: blueviolet;
+    border-radius: 100%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    aspect-ratio: 1;
+    text-align: center;
+    font-family: Arial;
+    font-weight: 600;
+    position: absolute;
+}
+
+.carrito{
+    text-decoration: none;
+    position: relative;
+}
+
+#tProductos2{
+    display: flex;
+    flex-wrap: wrap;
+   
+    align-content: center;
+}
+
+.tarjetaProducto{
+    max-width: 80%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(166, 109, 219);
+}

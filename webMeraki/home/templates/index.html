@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+{% block body %}
+
+
+<div class="container text-white mt-4 ps-4 pe-4 pt-4 pb-4 rounded color1">
+
+    <div class="row">
+
+        <div class="col-3 d-none d-sm-none d-md-block">
+            <div class="imagen text-center">
+                <img src="{% static 'logo.jpg' %}" class="circulo ms-4" width="50%"><br>
+            </div>
+            <div class="text-center mt-4 pt-4">
+                <ul>
+                    <a class="opcion" href="productos.html">Nuestros productos</a><br>
+                    <a class="opcion" href="pedido.html">Realiza tu pedido</a><br>
+                    <a class="opcion" href="contacto.html">Contactanos</a><br>
+                    <a class="opcion" href="login.html">Inicia sesion</a><br>
+                </ul>
+            </div>
+        </div>
+       
+        <div class="col-9 py-2">
+            <img src="{% static 'Bienvenida.jpg' %}" alt="Bienvenido a amasanderia Meraki" class="img-thumbnail rounded"
+                width="100%" />
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+{% endblock  %}

@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load static %}
+{% block body %}
+
+<div class="container text-white color1 mt-4 ps-4 pe-4 pt-4 pb-4 rounded">
+    <div class="row">
+        <div class="col-md-5 d-none d-sm-none d-md-block">
+            <img src="{% static 'logo.jpg' %}" width="300" height="300" class="mx-auto d-block circulo" alt="logo"> 
+        </div>
+        <div class="col-md-7 col-sm-12 bg-success rounded">
+            <div class="container-fluid pt-3 mt-3 rounded">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="{% static 'iconos/whatsapp.png' %}" width="50" height="50" class="rounded" alt="..."><br>
+                        <img src="{% static 'iconos/instagram.png' %}" width="50" height="50" class="mt-1 rounded" alt="..."><br>
+                        <img src="{% static 'iconos/facebook.png' %}" width="50" height="50" class="mt-1" alt="..."><br>
+                        <img src="{% static 'iconos/gmail.png' %}" width="50" height="50" class="mt-1" alt="...">
+                    </div>
+                    <div class="col-10">
+
+                        <h3 class="mt-2">+56 9 32358774</h3>
+                        <h3 class="mt-3">@amasanderia_meraki</h3>
+                        <h3 class="mt-3">@amasanderia_meraki</h3>
+                        <h3 class="mt-3">amasanderia.meraki@gmail.com </h3>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+{% endblock  %}
